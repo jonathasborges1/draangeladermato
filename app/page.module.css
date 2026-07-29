@@ -1531,8 +1531,13 @@
 
   .principles article {
     min-height: auto;
+    padding: 38px 24px;
     border-right: 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .principles article > span {
+    right: 18px;
   }
 
   .principles article:last-child {
@@ -1756,6 +1761,14 @@
     margin-top: 52px;
   }
 
+  .principles article {
+    padding: 34px 18px;
+  }
+
+  .principles article > span {
+    right: 14px;
+  }
+
   .conditionsLayout {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -1795,6 +1808,13 @@
   .aboutVisual {
     min-height: 500px;
     padding: 42px;
+  }
+
+  .aboutMonogram {
+    font-size: 100px;
+    top: 20px;
+    right: 10px;
+    opacity: 0.5;
   }
 
   .aboutCopy {
