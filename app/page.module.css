@@ -895,14 +895,25 @@
   align-items: flex-end;
   padding: 70px;
   overflow: hidden;
-  background:
-    linear-gradient(rgba(23, 59, 53, 0.72), rgba(16, 45, 41, 0.88)),
-    url("/images/dra-angela-hero-conceitual.png") center / cover;
+}
+
+.aboutVisualImage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.aboutVisualOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(rgba(23, 59, 53, 0.72), rgba(16, 45, 41, 0.88));
 }
 
 .aboutVisual::before {
   content: "";
   position: absolute;
+  z-index: 2;
   inset: 7%;
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -942,6 +953,7 @@
 
 .aboutMonogram {
   position: absolute;
+  z-index: 2;
   top: 45px;
   right: -15px;
   color: rgba(255, 255, 255, 0.07);
