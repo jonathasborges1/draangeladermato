@@ -81,7 +81,7 @@ export const careGroups = [
     number: "05",
     eyebrow: "Estética",
     title: "Dermatologia estética",
-    text: "Toxina Botulínica (Botox), Peeling, Microagulhamento, Laser de CO2, MMP, Drug Delivery, Tratamento de cicatrizes de acne.",
+    text: "Toxina Botulínica, Peeling, Microagulhamento, Laser de CO2, MMP, Drug Delivery, Tratamento de cicatrizes de acne.",
   },
 ];
 
